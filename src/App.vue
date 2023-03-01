@@ -28,10 +28,9 @@
       {{ slotProps.firstName }}
     </template>
   </NameList> -->
-  hello
   <RouterView></RouterView>
-  <JokesLover/>
-  <DogJokes/>
+  <!-- <JokesLover/> -->
+  <!-- <DogJokes/> -->
 </template>
 <!-- this shows how to pass props particularly how to modify the parent from the child -->
 <!-- secondly it is showing how to use emit, emit allows us pass data from child to parent!  -->
@@ -39,13 +38,13 @@
 // import WelcomeMsg from "./components/WelcomeMsg.vue";
 // import WelcomeBox from "./components/WelcomeBox.vue";
 // import NameList from "./components/NameList.vue";
-import JokesLover from "./components/JokesLover.vue";
-import DogJokes from './components/DogJokes.vue'
+// import JokesLover from "./components/JokesLover.vue";
+// import DogJokes from './components/DogJokes.vue'
 
 
 export default {
   name: "App",
-  components: {  JokesLover, DogJokes },
+  // components: {  JokesLover, DogJokes },
   data() {
     return {
       msg: "Hope you are doing great!.",
